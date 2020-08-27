@@ -1,4 +1,4 @@
-Locales ['en'] = {
+Locales ['hr'] = {
   -- weed
   ['weed_pickupprompt'] = 'Pritisnite ~INPUT_CONTEXT~ da pokupite ~g~cvijet~s~ kanabisa.',
   ['weed_inventoryfull'] = 'Nemate dovoljno mjesta da držite ~g~Kanabis~s~.',
