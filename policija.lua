@@ -1,4 +1,4 @@
-Locales['en'] = {
+Locales['hr'] = {
   -- Cloakroom
   ['cloakroom'] = 'Svlacionica',
   ['citizen_wear'] = 'Civilna odjeca',
