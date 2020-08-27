@@ -1,6 +1,6 @@
 Locales["hr"] = {
   ["glovebox_closed"] = "Pretinac je zatvoren.",
-  ["no_veh_nearby"] = "Tema vozila u blizini.",
+  ["no_veh_nearby"] = "Nema vozila u blizini.",
   ["glovebox_in_use"] = "Netko vec drugi koristi ovaj glovebox.",
   ["glovebox_full"] = "Pretinac je pun.",
   ["invalid_quantity"] = "Kriva kolicina",
