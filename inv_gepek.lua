@@ -1,6 +1,6 @@
 Locales["hr"] = {
   ["trunk_closed"] = "Gepek je zatvoren.",
-  ["no_veh_nearby"] = "Tema vozila u blizini.",
+  ["no_veh_nearby"] = "Nema vozila u blizini.",
   ["trunk_in_use"] = "Netko vec drugi koristi ovaj trunk.",
   ["trunk_full"] = "Gepek je pun.",
   ["invalid_quantity"] = "Kriva kolicina",
