@@ -91,7 +91,11 @@ function OnPlayerDeath()
 	isDead = true
 	ESX.UI.Menu.CloseAll()
 	TriggerServerEvent('esx_ambulancejob:setDeathStatus', true)
-
+	
+	FreezeEntityPosition(PlayerPedId(), true)
+	Wait(2000)
+	FreezeEntityPosition(PlayerPedId(), false)
+	
 	StartDeathTimer()
 	StartDistressSignal()
 
