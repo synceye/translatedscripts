@@ -1,5 +1,5 @@
 Locale.hr = {
-	AlreadyWearing "Vec nosit to.",
+	AlreadyWearing = "Vec nosit to.",
 	Bag = "Torba",
 	Bag2 = "Otvara i zatvara torbu.",
 	Bracelet = "Narukvica",
