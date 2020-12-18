@@ -638,7 +638,7 @@ Citizen.CreateThread(function()
             local dst = GetDistanceBetweenCoords(pedcoords, UTK.Banks[currentname].doors.secondloc.x, UTK.Banks[currentname].doors.secondloc.y, UTK.Banks[currentname].doors.secondloc.z, true)
 
             if dst < 4 then
-                DrawText3D(UTK.Banks[currentname].doors.secondloc.x, UTK.Banks[currentname].doors.secondloc.y, UTK.Banks[currentname].doors.secondloc.z, "[~r~E~w~] Use Secure ID Card", 0.40)
+                DrawText3D(UTK.Banks[currentname].doors.secondloc.x, UTK.Banks[currentname].doors.secondloc.y, UTK.Banks[currentname].doors.secondloc.z, "[~r~E~w~] Koristi Sigurnu ID Karticu", 0.40)
                 if dst < 0.75 and IsControlJustReleased(0 , 38) then
                     ESX.TriggerServerCallback("utk_fh:checkSecond", function(result)
                         if result then
