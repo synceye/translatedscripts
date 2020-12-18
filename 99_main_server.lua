@@ -35,8 +35,9 @@ ESX.RegisterServerCallback('99kr-shops:CheckMoney', function(source, cb, price, 
 
     if money >= price then
         cb(true)
+    else
+    	cb(false)
     end
-    cb(false)
 end)
 
 pNotify = function(message, messageType, messageTimeout)
